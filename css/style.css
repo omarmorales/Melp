@@ -6,10 +6,12 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@import url('https://fonts.googleapis.com/css?family=Courgette');
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+
 }
 
 html, body {
@@ -87,7 +89,6 @@ textarea {
 
 
 
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -107,8 +108,8 @@ textarea {
   color: black;
 }
 
-.lobster {
-  font-family: 'Lobster Two', cursive;
+.courgette {
+  font-family: 'Courgette', cursive !important;
 }
 
 .slim {
