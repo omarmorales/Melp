@@ -61,6 +61,7 @@
                     <th data-field="email">Correo</th>
                     <th data-field="address">Dirección</th>
                     <th data-field="rating">Calificación</th>
+                    <th data-field="map"></th>
                 </tr>
               </thead>
 
@@ -72,6 +73,7 @@
                   <td>{{ resto.contact.email }}</td>
                   <td>{{ resto.address.street }}, {{resto.address.city}}, {{resto.address.state}}</td>
                   <td><div star-rating rating-value="resto.rating" max=5 ></div><p>{{resto.rating}} de {{5}}</p></td>
+                  <td><a href="https://www.google.com.mx/maps/@{{ resto.address.location.lat }},{{ resto.address.location.lng }},15z" class="btn-floating"><i class="material-icons">place</i></a></td>
                 </tr>
               </tbody>
               <dir-pagination-controls class="center-align"></dir-pagination-controls>
