@@ -1,1 +1,1 @@
-angular.module('myApp', ['angularUtils.directives.dirPagination']);
+app = angular.module('myApp', ['angularUtils.directives.dirPagination']);
